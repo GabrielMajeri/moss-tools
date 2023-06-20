@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains a set of Python scripts I've found useful for preprocessing student's submissions before running them through Moss.
+This repository contains a set of Python scripts I've found useful for preprocessing student's submissions before running them through [Moss](https://theory.stanford.edu/~aiken/moss/).
 
 ## Scripts
 

@@ -6,6 +6,9 @@ This repository contains a set of Python scripts I've found useful for preproces
 
 ## Scripts
 
+- `extract.py`: recursively iterates through all archive files in a directory and extracts them into a subdirectory with the corresponding name.
+  Requires the Python [`unrar` module](https://pypi.org/project/unrar/) to be installed, which requires the [`unrar` library](https://packages.ubuntu.com/focal/libs/libunrar5) to be available on your system.
+
 - `cat-dirs.py`: goes through each subdirectory in a directory, concatenating all source files in that subdirectory (and its child directories, recursively) into a single source file.
   Useful if each of your students' programs is in a different, named subdirectory.
 
